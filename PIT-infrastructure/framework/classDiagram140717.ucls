@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.rigiresearch.lcastane.framework" project="framework" 
+    file="/framework/src/main/java/com/rigiresearch/lcastane/framework" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="239" x="183" y="123"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="com.rigiresearch.lcastane.galapagosmodel" project="goal-models" 
+    file="/goal-models/src/main/java/com/rigiresearch/lcastane/galapagosmodel" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="243" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="com.rigiresearch.lcastane.primor" project="primor" 
+    file="/primor/src/main/java/com/rigiresearch/lcastane/primor" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="215" x="324" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="4">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="true"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
