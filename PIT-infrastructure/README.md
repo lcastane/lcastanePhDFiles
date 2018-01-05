@@ -1,5 +1,6 @@
-#PRIMOR#
-##Processing Infrastructure for Models at Runtime##
+# PRIMOR #
+
+## Processing Infrastructure for Models at Runtime ##
 
 PRIMOR is a component-based system responsible for providing reading access from software components to the MARTs, executing model-related runtime operations,	and managing the propagation of changes among interconnected MARTs and their realities.
 
